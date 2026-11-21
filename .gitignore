@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# Build output
+alphabeta
+web/alphabeta.js
+web/alphabeta.wasm
+web/alphabeta.data

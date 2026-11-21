@@ -116,7 +116,7 @@ void Uci_Loop(S_BOARD *pos, S_SEARCHINFO *info) {
 
 	char line[INPUTBUFFER];
     printf("id name %s\n",NAME);
-    printf("id author Bluefever\n");
+    printf("id author %s\n", AUTHOR);
 	printf("option name Hash type spin default 64 min 4 max %d\n",MAX_HASH);
 	printf("option name Book type check default true\n");
     printf("uciok\n");
@@ -147,7 +147,7 @@ void Uci_Loop(S_BOARD *pos, S_SEARCHINFO *info) {
             break;
         } else if (!strncmp(line, "uci", 3)) {
             printf("id name %s\n",NAME);
-            printf("id author Bluefever\n");
+            printf("id author %s\n", AUTHOR);
             printf("uciok\n");
         } else if (!strncmp(line, "debug", 4)) {
             DebugAnalysisTest(pos,info);

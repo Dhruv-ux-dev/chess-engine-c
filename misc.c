@@ -26,7 +26,9 @@ int GetTimeMs() {
 // http://home.arcor.de/dreamlike/chess/
 int InputWaiting()
 {
-#ifndef WIN32
+#if defined(__EMSCRIPTEN__)
+  return 0; // browser build: no stdin; search stops on its time limit
+#elif !defined(WIN32)
   fd_set readfds;
   struct timeval tv;
   FD_ZERO (&readfds);

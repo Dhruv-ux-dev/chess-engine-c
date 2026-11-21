@@ -23,7 +23,8 @@ exit(1);}
 
 typedef unsigned long long U64;
 
-#define NAME "Vice 1.1"
+#define NAME "AlphaBeta 1.0"
+#define AUTHOR "Dhruv Mittal"
 #define BRD_SQ_NUM 120
 
 #define MAXGAMEMOVES 2048
