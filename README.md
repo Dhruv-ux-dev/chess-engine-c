@@ -1,6 +1,6 @@
 # AlphaBeta — Chess Engine in C
 
-**Author: Dhruv Mittal**
+**Author: Dhruv Mittal** · **[Play it in your browser](https://dhruv-ux-dev.github.io/chess-engine-c/)**
 
 AlphaBeta is a chess engine written in C. It speaks the UCI and XBoard protocols, so it plugs into standard chess GUIs (Arena, Cute Chess, BanksiaGUI), and it also compiles to WebAssembly so you can play it in the browser.
 
